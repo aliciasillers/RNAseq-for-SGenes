@@ -1,0 +1,15 @@
+*.fastq
+*fastqc
+*.html
+*.bam
+*.bam.bai
+*.bam.pbi
+*.txt
+*.bw
+*.bed
+*.log
+*.out
+*.err
+*.gz
+ERR*
+SRR*
