@@ -16,6 +16,6 @@ set -u                                                                          
 set -x
 
 module load conda/latest
-conda activate exp1
+conda activate exp2
 
-Rscript --vanilla --verbose genelengths.R
+gtftools -l rrgenelengths.tsv /home/asillers/Genome/farr1.gene_models.gtf -c chr_1A,chr_1B,chr_1C,chr_1D,chr_2A,chr_2B,chr_2C,chr_2D,chr_3A,chr_3B,chr_3C,chr_3D,chr_4A,chr_4B,chr_4C,chr_4D,chr_5A,chr_5B,chr_5C,chr_5D,chr_6A,chr_6B,chr_6C,chr_6D,chr_7A,chr_7B,chr_7C,chr_7D,contig_01,contig_02,contig_03,contig_04,contig_05,contig_06,contig_07,contig_08,contig_09,contig_10,contig_11,contig_12,contig_13,contig_14,contig_15,contig_16,contig_17,contig_18,contig_19,contig_20
