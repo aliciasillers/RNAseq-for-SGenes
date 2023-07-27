@@ -16,6 +16,6 @@ set -u                                                                          
 set -x
 
 module load conda/latest
-conda activate expression
+conda activate exp1
 
-gtftools -l rrgenelengths.txt /home/asillers/Genome/farr1.gene_models.gtf.ensembl
+Rscript --vanilla --verbose genelengths.R

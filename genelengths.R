@@ -17,9 +17,8 @@ elementMetadata(reducedGTF)$gene_id <- rep(names(rGTF), elementNROWS(rGTF))
 
 #make table
 
-data <- split(reducedGTF, elementMetadata(reducedGTF)$gene_id)
-data <- do.call(cbind, data)
-output <- as.matrix(t(data))
+data <- t(split(reducedGTF, elementMetadata(reducedGTF)$gene_id))
+output <- data
 colnames(output) <- c("Length")
 
 #write output
