@@ -15,7 +15,6 @@ Some scripts are not generalized and will need to be modified to run with differ
 2. starmap.sh
 3. convert.sh
 4. countall.sh
-## Generating list of gene lengths
-1. genelengths.sh
 ## Calculating normalized expression (RPKM)
-1. calcexp.sh
+1. genelengths.sh 
+2. calcexp.sh
