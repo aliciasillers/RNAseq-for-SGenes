@@ -1,0 +1,9 @@
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - r-tidyverse
+ - r-dbi
+ - gtftools
+ - argparse
