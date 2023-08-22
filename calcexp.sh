@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #SBATCH --job-name=calcexp
-#SBATCH --ntasks=10 # Number of cores
+#SBATCH --ntasks=2 # Number of cores
 #SBATCH --nodes=1 # Ensure that all cores are on one machine
 #SBATCH --mem=22G # Memory pool for all cores in MB (see also --mem-per-cpu)
 #SBATCH --partition=bmh # Partition to submit to

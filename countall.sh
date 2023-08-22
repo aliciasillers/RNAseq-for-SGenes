@@ -15,4 +15,5 @@ module load deprecated/htseq/2.0.2
 
 file=$(ls Mapped/*.bam)
 
-htseq-count $file /home/asillers/Genome/farr1.gene_models.gtf -c Counted/allcounts.tsv -s no
+htseq-count $file /home/asillers/Genome/farr1.gene_models_updated.gtf -c Counted/allcounts.tsv -s no
+

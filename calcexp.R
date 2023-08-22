@@ -6,7 +6,7 @@ library(DBI)
 countpath <- "Counted/allcounts.copy.tsv"
 genelengthpath <- "rrgenelengths.tsv"
 
-counts <- read.table(countpath, header=TRUE, sep="\t")
+counts <- read.delim(countpath, header=TRUE, sep="\t")
 counts <- as.data.frame(counts)
 counts <- sqlColumnToRownames(counts, row.names="gene")
 

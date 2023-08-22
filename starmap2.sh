@@ -13,4 +13,4 @@
 
 module load star
 
-STAR --runThreadN 12 --genomeDir genomeDir --readFilesIn SRR11794980.fastq --outFileNamePrefix Mapped/SRR11794980
+STAR --runThreadN 12 --genomeDir genomeDir --readFilesIn SRR11794975.fastq --outFileNamePrefix Mapped/SRR11794975
