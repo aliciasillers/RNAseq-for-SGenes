@@ -3,7 +3,7 @@ library(DBI)
 
 #read in files
 
-countpath <- "Counted/allcounts.copy.tsv"
+countpath <- "Counted/allcounts.tsv"
 genelengthpath <- "rrgenelengths.tsv"
 
 counts <- read.delim(countpath, header=TRUE, sep="\t")

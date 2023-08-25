@@ -16,6 +16,6 @@ set -u                                                                          
 set -x
 
 module load conda/latest
-conda activate exp2
+conda activate exp
 
 Rscript --vanilla --verbose calcexp.R
