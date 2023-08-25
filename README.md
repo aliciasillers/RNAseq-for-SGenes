@@ -18,3 +18,6 @@ Some scripts are not generalized and will need to be modified to run with differ
 ## Calculating normalized expression (RPKM)
 1. genelengths.sh 
 2. calcexp.sh
+## Visualization
+1. filterrpkm.sh
+2. visualize_rpkm.sh
