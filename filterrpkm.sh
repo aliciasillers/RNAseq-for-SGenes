@@ -9,6 +9,6 @@
 #SBATCH --error=filterrpkm.err # File to which STDERR will be written
 #SBATCH --mail-type=END,FAIL # Type of email notification- BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=asillers@ucdavis.edu # Email to which notifications will be$
-#SBATCH --time=8:00:00
+#SBATCH --time=4:00:00
 
 awk '{ if ($1 == "Fxa6Ag102517" || $1 == "Fxa6Bg102293" || $1 == "Fxa6Cg102198" || $1 == "Fxa6Dg102174" || $1 == "counts$gene") { print } }' rpkm.tsv > frpkm.tsv
