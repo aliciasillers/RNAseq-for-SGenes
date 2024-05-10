@@ -18,4 +18,4 @@ set -x
 module load conda/latest
 conda activate exp
 
-Rscript --vanilla --verbose vis_pire_rpkm.R
+Rscript --vanilla --verbose visualize_rpkm.R
