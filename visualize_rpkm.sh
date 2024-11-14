@@ -19,3 +19,4 @@ module load conda/latest
 conda activate exp
 
 Rscript --vanilla --verbose visualize_rpkm.R
+

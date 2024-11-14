@@ -17,4 +17,4 @@ module load samtools
 file1=$(ls Mapped/*.sam | sed -n ${SLURM_ARRAY_TASK_ID}p)
 name=$(ls Mapped/*.sam | awk -F'[.]' '{print $1}' | sed -n ${SLURM_ARRAY_TASK_ID}p)
 
-samtools sort $file1 --write-index -o ${name}.bam##idx##${name}.bam.bai
+samtools sort $file1 --write-index -T ${name}.temp -o ${name}.bam##idx##${name}.bam.bai
