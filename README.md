@@ -10,6 +10,7 @@ Some scripts are not generalized and will need to be modified to run with differ
 ## Checking data quality
 1. fastqc.sh
 2. fastqcunzip.sh
+3. trim.sh
 ## Generating count table
 1. starindex.sh
 2. starmap.sh
