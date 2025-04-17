@@ -6,5 +6,7 @@ dependencies:
  - r-tidyverse
  - r-dbi
  - r-reshape
+ - r-viridis
  - gtftools
  - argparse
+
