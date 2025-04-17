@@ -13,4 +13,4 @@
 
 module load star
 
-STAR --runThreadN 12 --runMode genomeGenerate --genomeDir genomeDir --genomeFastaFiles /home/asillers/Genome/farr1.fa --sjdbGTFfile /home/asillers/Genome/farr1.gene_models_updated.gtf --sjdbOverhang 100
+STAR --runThreadN 12 --runMode genomeGenerate --genomeDir genomeDir --genomeFastaFiles /home/asillers/Genome/farr1.fa --sjdbGTFfile /home/asillers/Genome/farr1.gene_models_updated_2025-04-15.gff --sjdbOverhang 100
